@@ -16,7 +16,7 @@ struct CircleView: View {
             Text("\(currentCircle.radius)")
                 .font(.largeTitle)
             
-            Slider(value: $currentCircle.radius, in: 0...100)
+            Slider(value: currentCircle.radius, in: 0...100)
         }
         .padding()
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
